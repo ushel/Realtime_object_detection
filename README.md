@@ -10,3 +10,8 @@ conda activate visa
 pip install -r requirements.txt
 '''
 
+yolo detect predict model=yolov8l.pt source=0 show=true
+
+source = 0 means camera
+
+python detect.py
